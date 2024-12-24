@@ -1,0 +1,73 @@
+.hero-section {
+  background-image: url('../../assets/images/no\ sub\ shot\ extended\ with\ gradient.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  max-width: 45%;
+  padding: 5rem;
+  color: black;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  color: #d11948;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+
+.learn-more {
+  background-color: white;
+  color: #d11948;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+  background-color: #f0f0f0;
+}
+
+.hero-image {
+  position: absolute;
+  right: -8%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60%;
+  height: 100%;
+  background-size: cover;
+  background-position: right center;
+  mask-image: linear-gradient(to left, 
+    rgba(0,0,0,1) 60%, 
+    rgba(0,0,0,0.8) 70%,
+    rgba(0,0,0,0.6) 80%,
+    rgba(0,0,0,0.4) 90%,
+    rgba(0,0,0,0) 100%
+  );
+  -webkit-mask-image: linear-gradient(to left, 
+    rgba(0,0,0,1) 60%, 
+    rgba(0,0,0,0.8) 70%,
+    rgba(0,0,0,0.6) 80%,
+    rgba(0,0,0,0.4) 90%,
+    rgba(0,0,0,0) 100%
+  );
+}
